@@ -16,7 +16,7 @@ var backimage = document.getElementById("bg-image");
 function number() {
     const userValue = parseInt(userinput.value);
     const min = 1;
-    const max = 1;
+    const max = 100;
     const randomNumber = Math.floor(Math.random() * (max - min + 1)) + min;
     document.getElementById("userInputValue").textContent = userValue;
     document.getElementById("randomNumberValue").textContent = randomNumber;
