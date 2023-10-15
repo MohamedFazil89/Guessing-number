@@ -1,0 +1,189 @@
+/* 
+
+background: repeating-linear-gradient(
+    to bottom,
+    #FF0000 0%,    #FF0000 14%,
+    #FF7F00 14%,   #FF7F00 28%,
+    #FFFF00 28%,   #FFFF00 42%,
+    #00FF00 42%,   #00FF00 57%,
+    #0000FF 57%,   #0000FF 71%,
+    #4B0082 71%,   #4B0082 85%,
+    #8B00FF 85%,   #8B00FF 100%
+); */
+
+
+#bg-image {
+    background-image: url('./assets/wallpaperflare.com_wallpaper (5).jpg');
+    background-color: rgba(0, 0, 0, 0.2); /* Adjust the last value (0.5) for opacity */
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 950px;
+    justify-content: center;
+    align-items: center;
+    background-color: #333;
+  }
+
+
+
+.game-element{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+}
+
+#star{
+    width: 6%;
+    height: 6%;
+
+}
+
+
+h1{
+    justify-content: center;
+    background-color: transparent;
+}
+
+.click{
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+    padding: 10px;
+
+}
+
+.input-box{
+    width: 5%;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #333;
+    background-color: #f8f8f8;
+    padding: 10px;
+}
+
+.reset{
+    background-color: #ff0000;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 10px;
+    margin-right: 10px;
+    width: 80px;
+    height: 50px;
+}
+.reset:hover{
+    background-color: #6b0202;
+    transform: scale(1.1);
+    transition: 1s;
+
+
+}
+
+.confirm{
+    background-color: #00ff15;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 10px;
+    margin-right: 10px;
+    width: 80px;
+    height: 50px;
+}
+
+.confirm:hover{
+    background-color: #034a09;
+    transform: scale(1.1);
+    transition: 1s;
+    
+
+
+}
+
+.box{
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 1.1);
+    width: 300px;
+    margin: 20px;
+}
+h1{
+    font-family: 'zyzol';
+    font-size: 40px;
+    color: aqua;
+
+}
+
+.image-element-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    margin-left: 560px;
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    animation: pop 0.6s ease infinite; 
+    transition: 0.3s; 
+
+
+}
+
+
+@keyframes pop {
+    0% { transform: scale(1); } /* Initial state, element at normal size */
+    50% { transform: scale(1.2); } /* Midpoint, element scales up to 1.2 times its size */
+    100% { transform: scale(1); } /* Final state, element returns to normal size */
+}
+
+.mark{
+    margin-right: 250px;
+    height: auto;
+    animation: pop 4.6s ease infinite; 
+}
+
+
+
+.line-box{
+    width: 1250px;
+    height: 300px;
+    background-color: rgb(0.0, 0.0, 0.5);
+    margin-top: 200px;
+    
+}
+
+h3{
+    font-size: 20px;
+    margin-left: 80px;
+    font-family: zyzol;
+    color: rgb(0, 0, 0);
+
+}
+span{
+    font-size: 20px;
+    margin-left: 150px;
+    font-family: zyzol;
+    color: rgb(0, 0, 0);
+
+
+}
+
+.h33{
+    color: #f8f8f8;
+    margin-left: 500px;
+    font-family: "zyzol";
+}
+.line{
+    font-size: 17px;
+    font-family: "zyzol";
+    color: whitesmoke;
+    
+}

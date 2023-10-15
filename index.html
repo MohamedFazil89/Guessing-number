@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='index.css'>
+</head>
+<body>
+    <div class="content" id="bg-image">
+        <div style="display: flex; flex-direction: row;">
+        <img src="./assets/download-removebg-preview.png" alt="queston" class="mark"/>
+
+        <h1>Guess a number</h1>
+
+
+    </div>
+        <img src='./assets/images-eye-removebg-preview.png' alt="think" class="image-element-1" />
+
+        <section class="game-element">
+        <input id="input"type="text" placeholder="number" class="input-box"/>
+        <br />
+        <section class="click">
+            <button class="reset" id="Reset" onclick="reset_()">Reset</button>
+            <button class="confirm" id="Confirm" onclick="number()">Confirm</button>
+        </section>
+        <section id="render" class="box">
+            <h3>You selected</h3>
+            <p><span id="userInputValue"></span></p> 
+            <h3>random number</h3>
+            <p><span id="randomNumberValue"></span></p>                                           
+        </section>
+    </section>
+    <div class="line-box">
+        <h3 class="h33">About the game!</h3>
+        <p class="line">he guessing game is a thrilling and interactive digital experience designed to put your intuition and luck to the test. In this game, players are presented with the exciting challenge of guessing a randomly generated number within a defined range. The objective is simple: enter your best guess, and if it matches the concealed number, you emerge victorious.
+
+            This game is not just about chance; it also invites you to use your cognitive abilities to make an educated guess. With an easy-to-use interface and visually engaging elements, <br />the guessing game offers an enjoyable and immersive way to spend your leisure time.
+            
+            Customization is at the heart of this game's appeal.You can tailor the game's settings to suit your preferences, choosing from various difficulty levels, themes, and interactive features. Whether you're a beginner looking for a casual gaming experience or a seasoned player seeking a challenge, the guessing game can be adapted to your liking.
+            
+            As you play, you'll experience the suspense and thrill of not knowing if your guess will hit the mark. And when it does, the feeling of accomplishment is incredibly satisfying. The guessing game is more than just a casual pastime; it's an opportunity to have fun, engage your mind, and celebrate your victories, one guess at a time.
+            
+            
+            
+            
+            <p>This is a simple guessing game where you have to guess a random number between 1 to 100</p>
+    </div>
+
+
+
+    </div>
+
+    <script src='index.js'></script>
+
+</body>
+</html>
